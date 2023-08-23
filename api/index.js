@@ -3,13 +3,13 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const dataBase = require('./database/database')
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-const turnosRouter = require('./routes/turnos')
-const patientsRouter = require('./routes/patients')
-const loginRouter = require('./routes/login')
-const registerRouter = require('./routes/register')
+const dataBase = require('../database/database')
+var indexRouter = require('../routes/index');
+var usersRouter = require('../routes/users');
+const turnosRouter = require('../routes/turnos')
+const patientsRouter = require('../routes/patients')
+const loginRouter = require('../routes/login')
+const registerRouter = require('../routes/register')
 
 var cors = require('cors')
 
